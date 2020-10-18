@@ -21,7 +21,7 @@ a = float(arc_angle)
 proportion = a / 360
 
 # Finds area
-area = math.pi * (r*r)
+area = math.pi * (r**2) #** means 'power of' eg **2 is squared, **3 is cubed
 rounded_area = round(area, 3)
 
 # Finds circumference
